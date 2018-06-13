@@ -1,0 +1,12 @@
+.bagInfo{
+    height: 12rem;
+}
+.bagInfoShow{
+    height: 6rem;
+}
+.confirmed{
+    height: 5rem;
+    text-align: left;
+    font-size: 0.8rem;
+    letter-spacing: 0.05rem;
+}

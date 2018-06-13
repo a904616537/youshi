@@ -1,0 +1,32 @@
+.selCla{
+    width:100%;
+    height:20rem;
+    box-sizing: border-box;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: aqua;
+}
+.selClaItem{
+    width: 4rem;
+    height: 5rem;
+    margin: 0 0.5rem;
+    display: inline-block;
+}
+.selImg{
+    width:3.5rem;
+    height:3.5rem;
+    margin: 0 0.25rem;
+    display:inline-block ;
+}
+.selText{
+    width:100%;
+    display: inline-block;
+    text-align: center;
+    height:1.5rem;
+    color: rgb(98,98,98);
+    line-height: 1.5rem;
+    font-size: 0.8rem;
+    font-style: normal;
+}

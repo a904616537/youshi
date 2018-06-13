@@ -1,0 +1,84 @@
+.container{
+    background-color:white ;
+}
+.content2{
+    width:100%;
+    height:60%;
+    overflow: hidden;
+}
+.stripOne{
+    width:100%;
+    height:2rem;
+    line-height: 2rem;
+    border: 1px solid #dddddd;
+    position: relative;
+    left: 1.2rem;
+    font-size: 0.7rem;
+    margin-bottom: 1rem;
+}
+.stripTwo{
+    width:100%;
+    height:6rem;
+    line-height: 2rem;
+    border: 1px solid #dddddd;
+    position: relative;
+    left: 1.2rem;
+    font-size: 0.7rem;
+    margin-bottom: 1rem;
+}
+.stripOneSon1{
+    width:2rem;
+    height:2rem;
+    display: inline-block;
+    line-height: 2rem;
+    box-sizing: border-box;
+    border-radius:50% ;
+    position: absolute;
+    left: -1rem;
+    font-size: 1rem;
+    border: 1px solid #dddddd;
+    background-color: #139344;
+    color: white;
+    font-style:normal;
+    box-shadow:0 0 0 0.1rem white inset;
+    text-align: center;
+}
+.stripOneSon12{
+   top: 2rem;
+}
+.stripOneSon2{
+    display: inline-block;
+    height:2rem;
+    line-height: 2rem;
+    position: relative;
+    left: 2rem;
+    font-size: 0.7rem;
+    font-style:normal;
+    text-align: center;
+}
+.stripOneSonP{
+    width: 75%;
+    text-align: left;
+}
+.selBtnOut{
+    width:100%;
+    height:4rem;
+    display: flex;
+    justify-content: space-around;
+   align-items: center;
+}
+.selBtn{
+    width:4rem;
+    height:1.5rem;
+    background-image: url("../Icon/price@3x.png");
+    background-size: 100% 100%;
+    margin-left: 4rem;
+}
+.selBtn1{
+    width:4rem;
+    height:1.5rem;
+    background-image: url("../Icon/lovePain@3x.png");
+    background-size: 100% 100%;
+    margin-right: 4rem;
+}
+

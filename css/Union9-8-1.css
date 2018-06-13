@@ -1,0 +1,7 @@
+.container{
+    overflow-y: scroll;
+}
+.classifyMiniText {
+    width: 9rem;
+    line-height: 1rem;
+}

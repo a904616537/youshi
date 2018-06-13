@@ -1,0 +1,18 @@
+.chanel{
+    width: 80%;
+    height:13rem ;
+    background-color: #268c4a;
+    color: white;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 5px 5px 0  0 #88bb9a;
+    position: relative;
+    top: 5rem;
+    text-align: center;
+}
+.chanelInput{
+    width: 70%;
+    height:2.5rem;
+    border: 1px solid white;
+    border-radius: 3px;
+}

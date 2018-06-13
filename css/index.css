@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+i{
+    font-style: normal;
+}
+@media screen and (max-width: 414px) {
+    * {
+        padding: 0;
+        margin: 0;
+        font-size: 105%;
+    }
+}
+@media screen and (max-width: 375px) {
+    * {
+        padding: 0;
+        margin: 0;
+        font-size: 100%;
+    }
+}
+@media screen and (max-width: 320px) {
+    * {
+        padding: 0;
+        margin: 0;
+        font-size: 85%;
+    }
+}
+h1{
+    font-weight: 100;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #ebebeb;
+}
+/*头部样式*/
+a{
+    text-decoration: none;
+}
+.herderInfo{
+    width: 100%;
+    height: 12%;
+    background-color: #3c7830;
+    margin-bottom: 30px;
+}
+.unUseCss1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.comebackBtn{
+    flex: 2;
+    height: 100%;
+}
+.comingBack{
+    display: inline-block;
+    width:1.5rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    background-image: url("../Icon/back@3x.png");
+    background-size: 100% 100%;
+}
+.headTitle{
+    flex: 7;
+    height: 100%;
+    font-size: 1.5rem;
+    color: white;
+}
+.userInfoIcon{
+    display: inline-block;
+    width:1.5rem;
+    height: 1.5rem;
+    background-image: url("../Icon/oneUser2@3x.png");
+    background-size: 100% 100%;
+    line-height: 2rem;
+    text-align: center;
+}
+.userInfo{
+    flex: 2;
+    height: 100%;
+}
+/*内容*/
+.contentFrame{
+    width:90%;
+    height:70%;
+    background: white;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px 0 #aaa ;
+    box-sizing: border-box;
+    padding-top: 3rem;
+    padding-left: 1.5rem;
+    padding-right:1.5rem;
+    text-align: center;
+}
+.content-head{
+    font-size: 1.2rem;
+    text-align: center;
+    color: #333;
+}
+.content-text{
+    margin-top: 1rem;
+    font-size: 0.85rem;
+    line-height: 1.5rem;
+    color: #666;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+.startTravel{
+    display: inline-block;
+    width:6rem;
+    height: 2rem;
+    margin: 0 auto;
+    background-image: url("../Icon/next@3x.png");
+    background-size: 100% 100%;
+}
